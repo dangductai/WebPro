@@ -34,20 +34,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<% include layout/header-pro %>
     <div class="account-in">
    	  <div class="container">
-   	     <form method="POST" action="/post-user"> 
+   	     <form method="post" action="/insert"> 
 		   <div class="register-bottom-grid">
 			<h2>Thông Tin Khách Hàng</h2>
 			 <div>
 				<span>Tên khách hàng<label>*</label></span>
-				<input type="text"> 
+				<input type="text" name="name-user"> 
 			 </div>
 			 <div>
 				 <span>Email<label>*</label></span>
-				 <input type="text"> 
+				 <input type="text" name="email-user"> 
 			 </div>
 			 <div>
 				<span>Mật khẩu<label>*</label></span>
-				<input type="password">
+				<input type="password" name="password-user">
 			</div>
 			<div>
 				<span>Nhập lại mật khẩu<label>*</label></span>
